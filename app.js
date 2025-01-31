@@ -6,17 +6,17 @@ function adicionarAmigo() {
     //validar entrada vazia
     if (nome === '') {
         alert('Por favor, insira um nome antes de adicionar');
-    } else {
-        //validar se tem nome repetido
-        if (amigo.includes(nome)) {
-            let resposta = prompt('Esse nome já existe na sua lista de amigos secretos, quer adicionar assim mesmo ? [S]im ou [N]ão').toUpperCase();
-            if (resposta === 'S') {
-                amigo.push(nome);
-            }
-        } else {
-            amigo.push(nome);
+        return;
+    } 
+    if (amigo.includes(nome)) {
+        let resposta = prompt('Esse nome já existe na sua lista de amigos secretos, quer adicionar assim mesmo ? [S]im ou [N]ão').toUpperCase();
+        if (resposta !== 'S') {
+            limparCampo();
+            return;
         }
-    }
+    } 
+
+    amigo.push(nome)
     limparCampo();
     criarLista();
     }
