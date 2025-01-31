@@ -8,6 +8,7 @@ function adicionarAmigo() {
         alert('Por favor, insira um nome antes de adicionar');
         return;
     } 
+    //Confere se o nome escrito está sendo repetido
     if (amigo.includes(nome)) {
         let resposta = prompt('Esse nome já existe na sua lista de amigos secretos, quer adicionar assim mesmo ? [S]im ou [N]ão').toUpperCase();
         if (resposta !== 'S') {
@@ -20,13 +21,12 @@ function adicionarAmigo() {
     limparCampo();
     criarLista();
     }
-
+//função que limpa o campo onde se escreve o nome do amigo
 function limparCampo() {
     let nome = document.getElementById('amigo');
     nome.value = '';
 }
-
-
+//função que cria a lista de amigo no HTML para o usuário ver
 function criarLista() {
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = '';
@@ -37,7 +37,7 @@ function criarLista() {
         lista.appendChild(li);
     }
 }
-
+//função que sorteia o amigo e mostra no HTML para o usuário ver
 function sortearAmigo() {
     if (amigo.length == 0 ) {
         alert('Precisa colocar o nome de seus amigos para sortear o amigo secreto');
