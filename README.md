@@ -37,7 +37,7 @@ Funcionalidades:
 
 ## 🛠 Tecnologias Utilizadas
 
-Liste as tecnologias, frameworks e bibliotecas utilizadas no projeto:
+Lista das tecnologias, frameworks e bibliotecas utilizadas no projeto:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)  
