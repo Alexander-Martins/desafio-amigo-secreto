@@ -27,10 +27,10 @@ Funcionalidades:
     - Se o campo de texto estiver vazio, o programa exibirá um alerta solicitando um nome válido.
     - Se o usuário tentar inserir um nome que já esteja presente na lista de amigos, exibirá um prompt questionando se ele realmente deseja adicionar um nome repetido.
 
-Visualizar a lista: 
+- Visualizar a lista: 
     - Os nomes inseridos aparecerão em uma lista abaixo do campo de entrada.
 
-Sorteio aleatório: 
+- Sorteio aleatório: 
     - Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
 
 ![Demonstração da Aplicação](assets/desafio-amigo-secreto.gif)
@@ -79,8 +79,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
 Como executar e utilizar o projeto:
 
-
-Acesse no navegador: `http://localhost:3000`
+Acesse no navegador: `https://alexander-martins.github.io/desafio-amigo-secreto/`
 
 ## 📁 Estrutura do Projeto
 
