@@ -1,11 +1,6 @@
 # Sorteador de Amigo Secreto
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![Status](https://img.shields.io/badge/status-completo-yellow)
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)  
-![Feito com Amor](https://img.shields.io/badge/feito%20com-%E2%9D%A4-purple)  
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Status](https://img.shields.io/badge/status-completo-yellow) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Feito com Amor](https://img.shields.io/badge/feito%20com-%E2%9D%A4-purple)
 
 ## 📌 Índice
 
@@ -37,6 +32,8 @@ Visualizar a lista:
 
 Sorteio aleatório: 
     - Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
+
+![Demonstração da Aplicação](assets/desafio-amigo-secreto.gif)
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -87,13 +84,18 @@ Acesse no navegador: `http://localhost:3000`
 
 ## 📁 Estrutura do Projeto
 
-Explicação breve sobre a estrutura de pastas do projeto.
+Na pasta principal Desafio-amigo-secreto temos a pasta assets, que contem as imagens utilizadas no nosso arquivo CSS e fornecidas pelo curso e uma gif feita por mim para demonstrar a aplicação. 
+
+Em sequência temos os arquivos que compõem a aplicação web, o JavaScript app.JS, o HTML index.html e o CSS style.css.
+
+Por ultimo, temos os arquivos texto README e LICENSE.
 
 ```
 📂 Desafio-amigo-secreto
  ├── 📁 assets
  │   ├── 📸 amigo-secreto.png
  │   ├── 📸 play_circle_outline.png
+ │   ├── 📸 desafio-amigo-secreto.gif
  ├── 🟨 app.js
  ├── 🟠 index.html
  ├── 📄 LICENSE.txt
