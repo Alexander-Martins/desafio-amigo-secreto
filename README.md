@@ -16,7 +16,7 @@
 
 ## 📖 Sobre o Projeto
 
-Descrição: Uma aplicação web estática e simples, composta por arquivos HTML, CSS e JavaScript com intuito de realizar um sorteio de amigos para um jogo de amigo secreto. O sorteio é feito de forma divertida e aleatória, com uma animação de confetes após o sorteio. O projeto foi desenvolvido como um desafio do curso do programa ONE (Oracle Next Education) em parceria com a Alura.
+Descrição: Uma aplicação web estática e simples, composta por arquivos HTML, CSS e JavaScript com intuito de realizar um sorteio de amigos para um jogo de amigo secreto. O sorteio é feito de forma divertida e aleatória, com uma animação de confetes após aparecer o nome do sorteado. O projeto foi desenvolvido como um desafio do curso do programa ONE (Oracle Next Education) em parceria com a Alura.
 
 Funcionalidades:
 
@@ -28,7 +28,7 @@ Funcionalidades:
   - Se o usuário tentar inserir um nome já presente na lista, um prompt perguntará se deseja adicionar o nome repetido.
 
 - **Ativar o botão "Sortear":**  
-  - O botão de sorteio fica desativado até que ao menos dois nomes sejam adicionados à lista.
+  - O botão de sorteio fica desativado até que ao menos três nomes sejam adicionados à lista.
 
 - **Visualizar a lista:**  
   - Os nomes inseridos aparecem em uma lista abaixo do campo de entrada.
@@ -36,7 +36,7 @@ Funcionalidades:
 - **Sorteio aleatório:**  
   - Ao clicar no botão "Sortear Amigo", um nome da lista é selecionado aleatoriamente e exibido na página.  
   - Após o sorteio, os nomes da lista são apagados.  
-  - Uma animação de confetes é exibida após o sorteio.
+  - Uma animação de confetes é exibida após apresentar o nome sorteado.
 
 ![Demonstração da Aplicação](assets/desafio-amigo-secreto.gif)
 
@@ -67,7 +67,6 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
      - [Atom](https://atom.io/)  
 
 Certifique-se de que seu navegador esteja atualizado para garantir compatibilidade com as tecnologias utilizadas no projeto.
-
 
 ## 📦 Instalação
 

@@ -26,9 +26,11 @@
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
-
+            <div class="container__texto">
+                <p id="paragrafoLiberarBotaoSortear" class="texto__paragrafo">Adicione mais do que 2 amigos para sortear</p>
+            </div>
             <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto" >
+                <button class="button-draw" onclick="sortearAmigo()" id="botaoSortear" aria-label="Sortear amigo secreto" disabled >
                     <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
                     Sortear amigo
                 </button>

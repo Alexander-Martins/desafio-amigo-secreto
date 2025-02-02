@@ -11,8 +11,8 @@ function adicionarAmigo() {
 
     // Confere se o nome está repetido
     if (amigos.includes(nome)) {
-        let resposta = prompt('Esse nome já existe na sua lista de amigos secretos. Quer adicionar assim mesmo? [S]im ou [N]ão').toLowerCase();
-        if (resposta !== 's') {
+        let resposta = prompt('Esse nome já existe na sua lista de amigos secretos. Quer adicionar assim mesmo? [S]im ou [N]ão').toUpperCase();
+        if (resposta !== 'S') {
             limparCampo();
             return;
         }
@@ -22,6 +22,14 @@ function adicionarAmigo() {
     limparCampo();
     criarLista();
     atualizarEstadoBotao(); // Atualiza o botão de sorteio
+
+    // Altera a mensagem de liberação do botão de sorteio
+    if (amigos.length <= 2) {
+        exibirTextoNaTela('paragrafoLiberarBotaoSortear',`Adicione mais ${3 - amigos.length} para sortear`);
+    } else {
+        exibirTextoNaTela('paragrafoLiberarBotaoSortear', 'Pronto para sortear!');
+    }
+
 }
 
 // Função que limpa o campo onde se escreve o nome do amigo
@@ -44,13 +52,15 @@ function criarLista() {
 // Função que ativa ou desativa o botão de sorteio
 function atualizarEstadoBotao() {
     let botaoSortear = document.getElementById('botaoSortear');
-    if (amigos.length < 2) {
-        botaoSortear.disabled = true;
-        botaoSortear.classList.add('button-draw'); // Adiciona a classe para estilo desabilitado
-    } else {
-        botaoSortear.disabled = false;
-        botaoSortear.classList.remove('button-draw'); // Remove a classe quando habilitado
+    if (amigos.length > 2) {
+        botaoSortear.removeAttribute("disabled");
     }
+}
+
+// Função que altera o paragrafo para liberar o botão de sorteio
+function exibirTextoNaTela(id, texto) {
+    let campo = document.getElementById(id);
+    campo.innerHTML = texto;
 }
 
 // Função que sorteia o amigo e mostra no HTML
