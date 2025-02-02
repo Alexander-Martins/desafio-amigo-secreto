@@ -16,22 +16,27 @@
 
 ## 📖 Sobre o Projeto
 
-Descrição: Uma aplicação web estática e simples, composta por arquivos HTML, CSS e JavaScript com intuito de realizar um sorteio de amigos para um jogo de amigo secreto, o sorteio é feito de forma divertida e aleatória. O projeto foi desenvolvido como um desafio do curso do programa ONE (Oracle Next Education) em parceria com a Alura.
+Descrição: Uma aplicação web estática e simples, composta por arquivos HTML, CSS e JavaScript com intuito de realizar um sorteio de amigos para um jogo de amigo secreto. O sorteio é feito de forma divertida e aleatória, com uma animação de confetes após o sorteio. O projeto foi desenvolvido como um desafio do curso do programa ONE (Oracle Next Education) em parceria com a Alura.
 
 Funcionalidades:
 
-- Adicionar nomes: 
-    - Os usuários escreverão o nome de um amigo em um campo de texto e o adicionarão a uma lista visível ao clicar em "Adicionar".
+- **Adicionar nomes:**  
+  - Os usuários escrevem o nome de um amigo em um campo de texto e o adicionam a uma lista visível ao clicar em "Adicionar".
 
-- Validar entrada: 
-    - Se o campo de texto estiver vazio, o programa exibirá um alerta solicitando um nome válido.
-    - Se o usuário tentar inserir um nome que já esteja presente na lista de amigos, exibirá um prompt questionando se ele realmente deseja adicionar um nome repetido.
+- **Validar entrada:**  
+  - Se o campo de texto estiver vazio, o programa exibe um alerta solicitando um nome válido.  
+  - Se o usuário tentar inserir um nome já presente na lista, um prompt perguntará se deseja adicionar o nome repetido.
 
-- Visualizar a lista: 
-    - Os nomes inseridos aparecerão em uma lista abaixo do campo de entrada.
+- **Ativar o botão "Sortear":**  
+  - O botão de sorteio fica desativado até que ao menos dois nomes sejam adicionados à lista.
 
-- Sorteio aleatório: 
-    - Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
+- **Visualizar a lista:**  
+  - Os nomes inseridos aparecem em uma lista abaixo do campo de entrada.
+
+- **Sorteio aleatório:**  
+  - Ao clicar no botão "Sortear Amigo", um nome da lista é selecionado aleatoriamente e exibido na página.  
+  - Após o sorteio, os nomes da lista são apagados.  
+  - Uma animação de confetes é exibida após o sorteio.
 
 ![Demonstração da Aplicação](assets/desafio-amigo-secreto.gif)
 
@@ -42,25 +47,27 @@ Lista das tecnologias, frameworks e bibliotecas utilizadas no projeto:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)  
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)  
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+- [Confetti.js](https://www.kirilv.com/canvas-confetti/) (para a animação de confetes)  
 
 ## 🔧 Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 
 1. **Navegador Web**  
-   - Um navegador moderno atualizado, como dos exemplos abaixo:  
+   - Um navegador moderno atualizado, como:  
      - [Google Chrome](https://www.google.com/chrome/)  
      - [Mozilla Firefox](https://www.mozilla.org/firefox/)  
-     - [Microsoft Edge](https://www.microsoft.com/edge)  
+     - [Microsoft Edge](https://www.microsoft.com/edge/)  
      - [Safari](https://www.apple.com/safari/)  
 
 2. **Editor de Código (Opcional, mas recomendado)**  
-   - Para visualizar e editar os arquivos do projeto, recomenda-se o uso de um editor de código, como dos exemplos abaixo:  
+   - Para visualizar e editar os arquivos do projeto, recomenda-se o uso de um editor de código, como:  
      - [Visual Studio Code](https://code.visualstudio.com/)  
      - [Sublime Text](https://www.sublimetext.com/)  
      - [Atom](https://atom.io/)  
 
 Certifique-se de que seu navegador esteja atualizado para garantir compatibilidade com as tecnologias utilizadas no projeto.
+
 
 ## 📦 Instalação
 
